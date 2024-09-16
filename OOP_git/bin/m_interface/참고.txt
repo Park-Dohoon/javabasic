@@ -1,0 +1,27 @@
+
+[ class modifier ]
+
+__1__ class A {
+	__2__ int A;
+	__3__ A() { }
+	__4__ void A { }
+}
+
+[1] public / final / abstract
+[2] public / protcted / private / static / final
+[3] public / protcted / private
+[4] public / protcted / private / static / final / abstract
+
+-----------------------------------------------------
+
+[interface]
+
+interface B {
+	(public static final) int B;	// 상수
+	// 생성자 함수 없음
+	(public abstract) void B();
+}
+
+abstract vs interface
+abstract : 일부 추상(일부 미완성) - 기능 일부 존재 | 상속: extends
+interface : 100% 추상(100% 미완성) - 기능 x, 표준화를 위해 존재 | 상속: implements(메소드) / extends(인터페이스)

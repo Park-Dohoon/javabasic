@@ -10,7 +10,7 @@ public class MainTest {
 		
 		// 값 지정 및 처리
 		s.name = "홍길순";
-		s.kor = 65;
+		s.kor = 70;
 		s.eng = 77;
 		s.math = 88;
 		
