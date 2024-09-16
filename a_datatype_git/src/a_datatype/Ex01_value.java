@@ -12,7 +12,7 @@ public class Ex01_value {
 		
 		//값을 대입
 		testCh ='깡';
-		testInt = 100000;
+		testInt = 1000000;
 		testFloat = 3.6;
 		testLogic = true;
 		
