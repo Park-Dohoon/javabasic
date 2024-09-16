@@ -3,10 +3,10 @@ package a_basic;
 public class Student {
 	
 	// member fields : 멤버변수들 (서로 다른 자료형)
-	String name;
-	int kor, eng, math;
-	int total;
-	double avg;
+	String name			;
+	int kor, eng, math	;
+	int total			;
+	double avg			;
 	
 	// member methods : 멤버함수들
 	int calTotal() {
